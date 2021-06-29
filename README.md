@@ -4,8 +4,11 @@ A CNN based Deep Learning model which takes an image as input and classifies it 
 This is a raw project in which i have used only necessary libraries such as numpy,matplotlib and keras.
 No pretrained parameters/models were used in this project.
 
+
 In this model i have used 5 Convo2D(CNN) layers where each layer is followed by one max pooling layer.
 Dropout layers have also been added to the model
+
+I have used RMSprop as my optimizer having a learning rate of 0.0001
 
 At last one Dense layer(Neural Network) had been added which finally gives us the output whether the input image is a dog or a cat image.
 
